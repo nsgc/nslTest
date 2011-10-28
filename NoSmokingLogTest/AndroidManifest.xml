@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="asia.nsgc.nsl.test"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <instrumentation android:targetPackage="asia.nsgc.nsl" android:name="android.test.InstrumentationTestRunner" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <uses-library android:name="android.test.runner" />
+    </application>
+    <uses-sdk android:targetSdkVersion="7" android:minSdkVersion="7"/>
+    <supports-screens android:anyDensity="true"/> 
+</manifest>
